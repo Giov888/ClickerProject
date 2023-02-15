@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Time Clicker</title>
+</head>
+<body>
+    <div class="column-container">
+        <div class="column">
+          <div class="container left">
+            <div class="counter-container">Clock:<span id="clock_counter">0</span></div>
+            <div class="cps-container">
+                <span id="cps">0</span> time/second
+            </div>
+            <button id="Clock"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDExXDU-YTxNngvaw88yP6V-CB-SdYwj2rw&usqp=CAU"></button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-header">Counter Store</div>
+          <div class="container right" id="producer_container">
+            <div class="producer-title">Seconds
+                <button id="buy_seconds_button" class="producer-button">Use 5
+                </button>
+            </div>
+            <div class ="producer-title" id="Minute">Minute
+                <button id="buy_minute_button" class="producer-button">Use 10</button>
+            </div>
+                <div class ="producer-title" id="Hour">Hours
+                    <button id="buy_hours_button" class="producer-button">Use 15</button>
+                </div>
+          </div>
+            
+            
+        </div>
+        <div id="seconds_option"></div>
+  </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
